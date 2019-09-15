@@ -18,7 +18,9 @@ namespace WebStore.Controllers
                 FirstName = "Иван",
                 LastName = "Пузиков",
                 Patronymic =  "Александрович",
-                Age = 22
+                Age = 22 ,
+                Sex = "Мужик!",
+                Town = "Нижний Яр"
             },
             new EmployeeView
             {
@@ -26,7 +28,19 @@ namespace WebStore.Controllers
                 FirstName = "Владислав",
                 LastName = "Петров",
                 Patronymic = "Иванович",
-                Age = 35
+                Age = 35,
+                Sex = "Мужик!",
+                Town = "Верхний Яр"
+            },
+             new EmployeeView
+            {
+                Id = 3,
+                FirstName = "Ольга",
+                LastName = "Машковец",
+                Patronymic = "Кириловна",
+                Age = 27,
+                Sex = "НЕ Мужик!",
+                Town = "Можга"
             }
         };
 
